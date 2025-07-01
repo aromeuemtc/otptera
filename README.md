@@ -8,15 +8,15 @@ This utility is particularly useful for Managed Service Providers (MSPs) and IT 
 
 ## 🔗 Table of Contents
 
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [How It Works](#how-it-works)
-- [Installation](#installation)
-- [Requirements](#requirements)
-- [Configuration](#configuration)
-- [Project Relationship](#project-relationship)
-- [Disclaimer](#disclaimer)
-- [License](#license)
+- [About the Project](#-about-the-project)
+- [Features](#-features)
+- [How It Works](#-how-it-works)
+- [Installation](#-installation)
+- [Requirements](#-requirements)
+- [Configuration](#-configuration)
+- [Project Relationship](#-project-relationship)
+- [Disclaimer](#-disclaimer)
+- [License](#-license)
 
 ---
 
@@ -114,7 +114,7 @@ pyinstaller --onefile atera_installer.py
 
 ## 🔗 Project Relationship
 
-This project is maintained by [@aromeuemtc](https://github.com/aromeuemtc), and is used internally by [HiTech Informática](https://www.hitech-informatica.es/) to support automated agent deployment in client environments.
+This project is maintained by Alvaro Romeu Esquerre [@aromeuemtc](https://github.com/aromeuemtc), and is used internally to support automated agent deployment in some environments.
 
 The project is open-source and available to the public under the MIT license. Third parties are welcome to fork, adapt, or contribute.
 
