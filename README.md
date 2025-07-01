@@ -83,3 +83,52 @@ The script performs the following steps:
    ```bash
    git clone https://github.com/aromeuemtc/otptera.git
    cd otptera
+   ```
+
+2. Install dependencies (if needed):
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the script (as administrator):
+   ```bash
+   python atera_installer.py
+   ```
+
+To compile into `.exe`:
+```bash
+pyinstaller --onefile atera_installer.py
+```
+
+---
+
+## 📋 Requirements
+
+- OS: Windows (with admin privileges)
+- Python 3.x
+- Internet connection
+- A valid [Atera API Key](https://support.atera.com/hc/en-us/articles/360012537919)
+- SMTP credentials (for report emails)
+
+---
+
+## 🔗 Project Relationship
+
+This project is maintained by [@aromeuemtc](https://github.com/aromeuemtc), and is used internally by [HiTech Informática](https://www.hitech-informatica.es/) to support automated agent deployment in client environments.
+
+The project is open-source and available to the public under the MIT license. Third parties are welcome to fork, adapt, or contribute.
+
+---
+
+## ⚠️ Disclaimer
+
+**OTPTERA** is not affiliated with or endorsed by Atera Networks Ltd.  
+It uses their public API according to their documented usage guidelines.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
